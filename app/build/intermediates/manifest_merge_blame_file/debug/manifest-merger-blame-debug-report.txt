@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.newsheadlines"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:5:5-75
+12-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:5:22-73
+13
+14    <application
+14-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:6:5-42:19
+15        android:allowBackup="true"
+15-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\beesu\.gradle\caches\transforms-3\9e6c59fa836bf02be7604ca30953af03\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:8:9-65
+18        android:debuggable="true"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:9:9-54
+20        android:icon="@drawable/news_app_icon"
+20-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:10:9-47
+21        android:label="Updated"
+21-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:11:9-32
+22        android:supportsRtl="true"
+22-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:12:9-35
+23        android:theme="@style/Theme.NewsHeadlines" >
+23-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:13:9-51
+24        <activity
+24-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:15:9-19:58
+25            android:name="com.example.newsheadlines.DisplayNews"
+25-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:16:13-40
+26            android:exported="false"
+26-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:17:13-37
+27            android:label="@string/title_activity_display_news"
+27-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:18:13-64
+28            android:theme="@style/Theme.NewsHeadlines" />
+28-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:19:13-55
+29        <activity
+29-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:20:9-24:58
+30            android:name="com.example.newsheadlines.RegistrationActivity"
+30-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:21:13-49
+31            android:exported="false"
+31-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:22:13-37
+32            android:label="@string/title_activity_registration"
+32-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:23:13-64
+33            android:theme="@style/Theme.NewsHeadlines" />
+33-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:24:13-55
+34        <activity
+34-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:25:9-29:58
+35            android:name="com.example.newsheadlines.MainPage"
+35-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:26:13-37
+36            android:exported="false"
+36-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:27:13-37
+37            android:label="@string/title_activity_main_page"
+37-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:28:13-61
+38            android:theme="@style/Theme.NewsHeadlines" />
+38-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:29:13-55
+39        <activity
+39-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:31:9-41:20
+40            android:name="com.example.newsheadlines.LoginActivity"
+40-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:32:13-42
+41            android:exported="true"
+41-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:33:13-36
+42            android:label="@string/app_name"
+42-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:34:13-45
+43            android:theme="@style/Theme.NewsHeadlines" >
+43-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:35:13-55
+44            <intent-filter>
+44-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:36:13-40:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:37:17-69
+45-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:37:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:39:17-77
+47-->C:\MAD\Stay Updated Daily\app\src\main\AndroidManifest.xml:39:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <service
+51-->[androidx.room:room-runtime:2.5.0] C:\Users\beesu\.gradle\caches\transforms-3\4309c97ebbd6c0fdc0cac9c97e41db19\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+52            android:name="androidx.room.MultiInstanceInvalidationService"
+52-->[androidx.room:room-runtime:2.5.0] C:\Users\beesu\.gradle\caches\transforms-3\4309c97ebbd6c0fdc0cac9c97e41db19\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+53            android:directBootAware="true"
+53-->[androidx.room:room-runtime:2.5.0] C:\Users\beesu\.gradle\caches\transforms-3\4309c97ebbd6c0fdc0cac9c97e41db19\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+54            android:exported="false" />
+54-->[androidx.room:room-runtime:2.5.0] C:\Users\beesu\.gradle\caches\transforms-3\4309c97ebbd6c0fdc0cac9c97e41db19\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+55
+56        <activity
+56-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\280b131bb25e5630f81e39beabaa1bea\transformed\ui-tooling-1.2.0\AndroidManifest.xml:24:9-26:39
+57            android:name="androidx.compose.ui.tooling.PreviewActivity"
+57-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\280b131bb25e5630f81e39beabaa1bea\transformed\ui-tooling-1.2.0\AndroidManifest.xml:25:13-71
+58            android:exported="true" />
+58-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\280b131bb25e5630f81e39beabaa1bea\transformed\ui-tooling-1.2.0\AndroidManifest.xml:26:13-36
+59        <activity
+59-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\26f1dbfda8720dd08f31ae18a7932ecf\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:24:9-26:39
+60            android:name="androidx.activity.ComponentActivity"
+60-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\26f1dbfda8720dd08f31ae18a7932ecf\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:25:13-63
+61            android:exported="true" />
+61-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\26f1dbfda8720dd08f31ae18a7932ecf\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:26:13-36
+62
+63        <provider
+63-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:25:9-33:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:26:13-67
+65            android:authorities="com.example.newsheadlines.androidx-startup"
+65-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:27:13-68
+66            android:exported="false" >
+66-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:28:13-37
+67            <meta-data
+67-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+68                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+68-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+69                android:value="androidx.startup" />
+69-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+70        </provider>
+71
+72        <receiver
+72-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+73            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+73-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+74            android:directBootAware="false"
+74-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+75            android:enabled="true"
+75-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+76            android:exported="true"
+76-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+77            android:permission="android.permission.DUMP" >
+77-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+79                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+79-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+82                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+82-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\beesu\.gradle\caches\transforms-3\0a6b5b495426ae159969d7c51bf87af6\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+83            </intent-filter>
+84        </receiver>
+85    </application>
+86
+87</manifest>
